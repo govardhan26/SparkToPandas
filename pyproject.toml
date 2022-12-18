@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "SparkToPandas"
-version = "0.0.1"
+version = "0.0.3"
 authors = [
   { name="Govardhan Selvaraj", email="govardhan_selvaraj@yahoo.com" },
 ]
@@ -20,3 +20,5 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/govardhan26/SparkToPandas"
 "Bug Tracker" = "https://github.com/govardhan26/SparkToPandas/issues"
+"Donate" = "https://www.buymeacoffee.com/govardhan26"
+"linkedin" = "https://www.linkedin.com/in/govardhan-selvaraj/"
