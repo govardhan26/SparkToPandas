@@ -33,5 +33,3 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
-
-twine upload -u __token__ -p pypi-AgEIcHlwaS5vcmcCJDlhMTc5YTBmLTRkMjItNDVhNC04MzQwLTgzYTkwODZjOGY5MQACKlszLCIyMjJkYWRjMy1hNzdkLTRkYmEtYjRjYi0zNjI3OTNmNGRkNDUiXQAABiAWSKj0vt-kgIcyaj2Bxw5O7f8hLifcpqKuFONJ9If2gg --repository-url https://upload.pypi.org/legacy/ dist/*
