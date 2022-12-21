@@ -2,9 +2,12 @@ SparkToPandas
 --------------
 
 -----
-The SparkToPandas is a pyspark supporting package which has the syntax similar to pandas, not all operations in pyspark are supported by this package.
 
-If anyone is intersted in developing the package further or collaboration, please reachout.
+The SparkToPandas is a plugin for pyspark module, which has the syntax similar to the pandas module.
+
+Visit the [docs](https://sparktopandas.readthedocs.io/en/latest/index.html) page, for the official documentation.
+
+If you are interested in enhancing the module or collaboration, please reachout.
 
 *For more info, mail me @ govardhan_selvaraj@yahoo.com*
 
