@@ -4,10 +4,10 @@ SparkToPandas package
 Submodules
 ----------
 
-SparkToPandas.SparkToPandas module
-----------------------------------
+SparkToPandas.pandas\_plugin module
+-----------------------------------
 
-.. automodule:: SparkToPandas.SparkToPandas
+.. automodule:: SparkToPandas.pandas_plugin
    :members:
    :undoc-members:
    :show-inheritance:

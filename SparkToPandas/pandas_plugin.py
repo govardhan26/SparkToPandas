@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-class Spark_pandas:
+class spark_pandas:
     """
     A supporting functions for pyspark ,which has the syntax similar to pandas
     """

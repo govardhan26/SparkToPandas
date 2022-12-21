@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SparkToPandas package &mdash; SparkToPandas 1.0.0 documentation</title>
+  <title>SparkToPandas package &mdash; SparkToPandas 1.0.1 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -43,9 +43,9 @@
 <li class="toctree-l1 current"><a class="reference internal" href="modules.html">SparkToPandas</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">SparkToPandas package</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#module-SparkToPandas.SparkToPandas">SparkToPandas.SparkToPandas module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#module-SparkToPandas.pandas_plugin">SparkToPandas.pandas_plugin module</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#sparktopandas-documentation">SparkToPandas Documentation</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#SparkToPandas.SparkToPandas.Spark_pandas"><code class="docutils literal notranslate"><span class="pre">Spark_pandas</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#SparkToPandas.pandas_plugin.spark_pandas"><code class="docutils literal notranslate"><span class="pre">spark_pandas</span></code></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#module-SparkToPandas">Module contents</a></li>
@@ -85,20 +85,20 @@
 <section id="submodules">
 <h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this heading"></a></h2>
 </section>
-<section id="module-SparkToPandas.SparkToPandas">
-<span id="sparktopandas-sparktopandas-module"></span><h2>SparkToPandas.SparkToPandas module<a class="headerlink" href="#module-SparkToPandas.SparkToPandas" title="Permalink to this heading"></a></h2>
+<section id="module-SparkToPandas.pandas_plugin">
+<span id="sparktopandas-pandas-plugin-module"></span><h2>SparkToPandas.pandas_plugin module<a class="headerlink" href="#module-SparkToPandas.pandas_plugin" title="Permalink to this heading"></a></h2>
 <section id="sparktopandas-documentation">
 <h3>SparkToPandas Documentation<a class="headerlink" href="#sparktopandas-documentation" title="Permalink to this heading"></a></h3>
 <p>SparkToPandas is a simple plugin alongside of spark, the SparkToPandas was designed to work with pyspark with a syntax more similar to pandas.</p>
 </section>
 <dl class="py class">
-<dt class="sig sig-object py" id="SparkToPandas.SparkToPandas.Spark_pandas">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">SparkToPandas.SparkToPandas.</span></span><span class="sig-name descname"><span class="pre">Spark_pandas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">spark</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/SparkToPandas.html#Spark_pandas"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.SparkToPandas.Spark_pandas" title="Permalink to this definition"></a></dt>
+<dt class="sig sig-object py" id="SparkToPandas.pandas_plugin.spark_pandas">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">SparkToPandas.pandas_plugin.</span></span><span class="sig-name descname"><span class="pre">spark_pandas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">spark</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/pandas_plugin.html#spark_pandas"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.pandas_plugin.spark_pandas" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>A supporting functions for pyspark ,which has the syntax similar to pandas</p>
 <dl class="py method">
-<dt class="sig sig-object py" id="SparkToPandas.SparkToPandas.Spark_pandas.barChart">
-<span class="sig-name descname"><span class="pre">barChart</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">hue</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">aspect</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'horizontal'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/SparkToPandas.html#Spark_pandas.barChart"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.SparkToPandas.Spark_pandas.barChart" title="Permalink to this definition"></a></dt>
+<dt class="sig sig-object py" id="SparkToPandas.pandas_plugin.spark_pandas.barChart">
+<span class="sig-name descname"><span class="pre">barChart</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">hue</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">aspect</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'horizontal'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/pandas_plugin.html#spark_pandas.barChart"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.pandas_plugin.spark_pandas.barChart" title="Permalink to this definition"></a></dt>
 <dd><p>Plots a barchart using the seaborn module</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -118,8 +118,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="SparkToPandas.SparkToPandas.Spark_pandas.column_creator">
-<span class="sig-name descname"><span class="pre">column_creator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">primary_column</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">new_column_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">user_func</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/SparkToPandas.html#Spark_pandas.column_creator"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.SparkToPandas.Spark_pandas.column_creator" title="Permalink to this definition"></a></dt>
+<dt class="sig sig-object py" id="SparkToPandas.pandas_plugin.spark_pandas.column_creator">
+<span class="sig-name descname"><span class="pre">column_creator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">primary_column</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">new_column_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">user_func</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/pandas_plugin.html#spark_pandas.column_creator"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.pandas_plugin.spark_pandas.column_creator" title="Permalink to this definition"></a></dt>
 <dd><p>Creates a new column based on user defined function and returns the new rdd</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -137,8 +137,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="SparkToPandas.SparkToPandas.Spark_pandas.conditional_func">
-<span class="sig-name descname"><span class="pre">conditional_func</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/SparkToPandas.html#Spark_pandas.conditional_func"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.SparkToPandas.Spark_pandas.conditional_func" title="Permalink to this definition"></a></dt>
+<dt class="sig sig-object py" id="SparkToPandas.pandas_plugin.spark_pandas.conditional_func">
+<span class="sig-name descname"><span class="pre">conditional_func</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/pandas_plugin.html#spark_pandas.conditional_func"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.pandas_plugin.spark_pandas.conditional_func" title="Permalink to this definition"></a></dt>
 <dd><p>A sample function, to add x+1 number</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -151,8 +151,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="SparkToPandas.SparkToPandas.Spark_pandas.drop_na">
-<span class="sig-name descname"><span class="pre">drop_na</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">col_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/SparkToPandas.html#Spark_pandas.drop_na"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.SparkToPandas.Spark_pandas.drop_na" title="Permalink to this definition"></a></dt>
+<dt class="sig sig-object py" id="SparkToPandas.pandas_plugin.spark_pandas.drop_na">
+<span class="sig-name descname"><span class="pre">drop_na</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">col_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/pandas_plugin.html#spark_pandas.drop_na"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.pandas_plugin.spark_pandas.drop_na" title="Permalink to this definition"></a></dt>
 <dd><p>Drops null values based on user choice. Supports dropping all null values or dropping null values based on column subset</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -168,8 +168,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="SparkToPandas.SparkToPandas.Spark_pandas.fillna">
-<span class="sig-name descname"><span class="pre">fillna</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">col_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/SparkToPandas.html#Spark_pandas.fillna"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.SparkToPandas.Spark_pandas.fillna" title="Permalink to this definition"></a></dt>
+<dt class="sig sig-object py" id="SparkToPandas.pandas_plugin.spark_pandas.fillna">
+<span class="sig-name descname"><span class="pre">fillna</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">col_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/pandas_plugin.html#spark_pandas.fillna"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.pandas_plugin.spark_pandas.fillna" title="Permalink to this definition"></a></dt>
 <dd><p>Fills null values based on user choice.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -186,8 +186,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="SparkToPandas.SparkToPandas.Spark_pandas.head">
-<span class="sig-name descname"><span class="pre">head</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/SparkToPandas.html#Spark_pandas.head"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.SparkToPandas.Spark_pandas.head" title="Permalink to this definition"></a></dt>
+<dt class="sig sig-object py" id="SparkToPandas.pandas_plugin.spark_pandas.head">
+<span class="sig-name descname"><span class="pre">head</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/pandas_plugin.html#spark_pandas.head"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.pandas_plugin.spark_pandas.head" title="Permalink to this definition"></a></dt>
 <dd><p>Prints the head and tail of the dataframe depending on user’s choice.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -203,8 +203,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="SparkToPandas.SparkToPandas.Spark_pandas.read_csv">
-<span class="sig-name descname"><span class="pre">read_csv</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_location</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">header</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/SparkToPandas.html#Spark_pandas.read_csv"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.SparkToPandas.Spark_pandas.read_csv" title="Permalink to this definition"></a></dt>
+<dt class="sig sig-object py" id="SparkToPandas.pandas_plugin.spark_pandas.read_csv">
+<span class="sig-name descname"><span class="pre">read_csv</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_location</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">header</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/pandas_plugin.html#spark_pandas.read_csv"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.pandas_plugin.spark_pandas.read_csv" title="Permalink to this definition"></a></dt>
 <dd><p>Function to read csv file as a spark rdd</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -220,8 +220,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="SparkToPandas.SparkToPandas.Spark_pandas.sort_df">
-<span class="sig-name descname"><span class="pre">sort_df</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">col_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ascending</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/SparkToPandas.html#Spark_pandas.sort_df"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.SparkToPandas.Spark_pandas.sort_df" title="Permalink to this definition"></a></dt>
+<dt class="sig sig-object py" id="SparkToPandas.pandas_plugin.spark_pandas.sort_df">
+<span class="sig-name descname"><span class="pre">sort_df</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">col_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ascending</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/pandas_plugin.html#spark_pandas.sort_df"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.pandas_plugin.spark_pandas.sort_df" title="Permalink to this definition"></a></dt>
 <dd><p>Function to sort the dataframe in ascending or descending order based on the columns given</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -238,8 +238,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="SparkToPandas.SparkToPandas.Spark_pandas.subset_columns">
-<span class="sig-name descname"><span class="pre">subset_columns</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">column_names</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/SparkToPandas.html#Spark_pandas.subset_columns"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.SparkToPandas.Spark_pandas.subset_columns" title="Permalink to this definition"></a></dt>
+<dt class="sig sig-object py" id="SparkToPandas.pandas_plugin.spark_pandas.subset_columns">
+<span class="sig-name descname"><span class="pre">subset_columns</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">column_names</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/SparkToPandas/pandas_plugin.html#spark_pandas.subset_columns"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#SparkToPandas.pandas_plugin.spark_pandas.subset_columns" title="Permalink to this definition"></a></dt>
 <dd><p>Returns a dataframe which the user specified column names.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>

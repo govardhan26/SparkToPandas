@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "SparkToPandas"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   { name="Govardhan Selvaraj", email="govardhan_selvaraj@yahoo.com" },
 ]
