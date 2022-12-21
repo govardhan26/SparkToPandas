@@ -13,7 +13,9 @@ To install the package:
 
 Visit the [docs](https://sparktopandas.readthedocs.io/en/latest/index.html) page, for the official documentation.
 
+Example:
 
+![alt text](https://github.com/govardhan26/SparkToPandas/blob/main/examples/importing.PNG)
 
 If you are interested in enhancing the module or collaboration, please reachout.
 
