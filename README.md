@@ -11,7 +11,7 @@ To install the package:
 `pip install SparkToPandas`
 
 
-Visit the [docs](https://sparktopandas.readthedocs.io/en/latest/index.html) page, for the official documentation.
+Visit the [``docs``](https://sparktopandas.readthedocs.io/en/latest/index.html) page, for the official documentation.
 
 Example:
 
