@@ -7,8 +7,10 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 import os
 import sys
-sys.path.insert(0, os.path.abspath('..'))
+import sphinx_rtd_theme
 
+sys.path.insert(0, os.path.abspath("."))
+sys.path.insert(0, os.path.abspath("../"))
 project = 'SparkToPandas'
 copyright = '2022, Govardhan Selvaraj'
 author = 'Govardhan Selvaraj'
