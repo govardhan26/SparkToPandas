@@ -16,9 +16,7 @@ If you are interested in enhancing the module or collaboration, please reachout.
 
 *For more info, mail me @ govardhan_selvaraj@yahoo.com*
 
-If you find this repository useful, buy me a coffee... :)
-
-https://www.buymeacoffee.com/govardhan26
+If you find this repository useful, [buy me a coffee](https://www.buymeacoffee.com/govardhan26)... :)
 
 -----------
 
