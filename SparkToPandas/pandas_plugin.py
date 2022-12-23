@@ -10,7 +10,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
 class spark_pandas:
     """
     A supporting functions for pyspark ,which has the syntax similar to pandas
@@ -39,6 +38,36 @@ class spark_pandas:
         """
         df = self.spark.read.csv(file_location, header=header)
         return df
+
+    def read_excel(self, file_location, sheet_name):
+        """
+        Function to read excel sheet
+
+        :param file_location: str
+        :param sheet_name: str
+
+        :return: dataframe
+
+        """
+        df = self.spark.read.format("com.crealytics.spark.excel") \
+            .option("useHeader", "true") \
+            .option("inferSchema", "true") \
+            .option("dataAddress", sheet_name) \
+            .load(file_location)
+        return df
+
+    def read_json(self, file_location):
+        """
+        Function to read json data
+
+        :param file_location: str
+
+        :return: json obj
+
+        """
+        json_obj = self.spark.read.json(file_location)
+        return json_obj
+
 
     def conditional_func(self, x):
         """
@@ -143,6 +172,51 @@ class spark_pandas:
             return df.na.fill(value)
         else:
             return df.na.fill(value, subset=col_name)
+
+    def describe(self, df, col = None):
+        """
+        Function to display the basic stats of the dataframe
+        :param df: dataframe
+        :param col: str
+        :return: display attr
+        """
+        if col == None:
+            return df.describe().display()
+        else:
+            return df.describe([col]).display()
+
+
+    def print_schema(self, df):
+        """
+        Function to print the schema of the table:
+
+        :param df: dataframe
+
+        :return: Schema
+        """
+        return df.printSchema()
+
+    def change_schema(self, df, columns, dataType):
+        """
+        Function to change the schema of the table
+
+        :param df: dataframe
+        :param columns: list
+        :param dataType: list
+
+        :return: dataframe
+
+        """
+        print("=="*20)
+        print("Existing Schema : ")
+        df.printSchema()
+        print("==" * 20)
+        print("Changing Schema : ")
+        for idx in range(len(columns)):
+            df = df.withColumn(columns[idx],df[columns[idx]].cast(dataType[idx]))
+        print("New Schema : ")
+        df.printSchema()
+        return df
 
     def barChart(self, df, x, y, hue, title, aspect='horizontal'):
         """
